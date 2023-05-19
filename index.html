@@ -36,7 +36,7 @@
               <li class="nav-item">
                 <a
                   class="nav-portfolio link"
-                  href="https://tomaszandrzejpawlowski.github.io/goit-markup-hw-03/portfolio.html"
+                  href="https://tomaszandrzejpawlowski.github.io/goit-markup-hw-04/portfolio.html"
                   >Portfolio</a
                 >
               </li>
@@ -47,13 +47,21 @@
           </nav>
           <ul class="header-contact">
             <li class="header-contact-item">
-              <a class="header-mail link" href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
+              <a class="header-mail link" href="mailto:info@devstudio.com">
+                <svg class="envelope-icon" width="16px" height="12px">
+                  <use href="./images/icons-svg/icons.svg#icon-envelope"></use>
+                </svg>
+                info@devstudio.com</a
               >
             </li>
             <li class="header-contact-item">
               <a class="header-tel link" href="tel:+48111111111"
-                >+48 111 111 111</a
+                ><svg class="smartphone-icon" width="10px" height="16px">
+                  <use
+                    href="./images/icons-svg/icons.svg#icon-smartphone"
+                  ></use>
+                </svg>
+                +48 111 111 111</a
               >
             </li>
           </ul>
@@ -62,19 +70,25 @@
     </header>
     <main class="s-main">
       <!--nagłówek-->
-      <section class="header-block">
-        <h1 class="main-header-text" id="agency">
-          EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU
-        </h1>
-        <button class="button header-button" type="button">
-          <span class="header-button-text">Zamów usługe</span>
-        </button>
-      </section>
-
+      <div class="header-block-shade">
+        <section class="header-block">
+          <h1 class="main-header-text" id="agency">
+            EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU
+          </h1>
+          <button class="button header-button" type="button">
+            <span class="header-button-text">Zamów usługe</span>
+          </button>
+        </section>
+      </div>
       <!--nasze atuty-->
       <div class="container">
         <section class="assets-block">
           <ul class="assets">
+            <div class="icon-background">
+              <svg class="antenna-1-icon icons" width="70px" height="70px">
+                <use href="./images/icons-svg/icons.svg#icon-antenna-1"></use>
+              </svg>
+            </div>
             <li class="asset"><strong>LOREM IPSUM</strong></li>
             <li class="asset-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
@@ -82,6 +96,11 @@
             </li>
           </ul>
           <ul class="assets">
+            <div class="icon-background">
+              <svg class="clock-1-icon icons" width="70px" height="70px">
+                <use href="./images/icons-svg/icons.svg#icon-clock-1"></use>
+              </svg>
+            </div>
             <li class="asset"><strong>LOREM IPSUM</strong></li>
             <li class="asset-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
@@ -89,6 +108,11 @@
             </li>
           </ul>
           <ul class="assets">
+            <div class="icon-background">
+              <svg class="diagram-1-icon icons" width="70px" height="70px">
+                <use href="./images/icons-svg/icons.svg#icon-diagram-1"></use>
+              </svg>
+            </div>
             <li class="asset"><strong>LOREM IPSUM</strong></li>
             <li class="asset-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
@@ -96,6 +120,11 @@
             </li>
           </ul>
           <ul class="assets">
+            <div class="icon-background">
+              <svg class="astronaut-1-icon icons" width="70px" height="70px">
+                <use href="./images/icons-svg/icons.svg#icon-astronaut-1"></use>
+              </svg>
+            </div>
             <li class="asset"><strong>LOREM IPSUM</strong></li>
             <li class="asset-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
@@ -151,6 +180,60 @@
               />
               <h3 class="member-name">John Doe</h3>
               <p class="member-job">Product Designer</p>
+              <ul class="social-links">
+                <li>
+                  <a href="#"
+                    ><svg
+                      class="instagram-icon social-icon"
+                      width="44px"
+                      height="44px"
+                    >
+                      <use
+                        href="./images/icons-svg/icons.svg#icon-ellipse"
+                      ></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><svg
+                      class="tweeter-icon social-icon"
+                      width="44px"
+                      height="44px"
+                    >
+                      <use
+                        href="./images/icons-svg/icons.svg#icon-ellipse-1"
+                      ></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><svg
+                      class="facebook-icon social-icon"
+                      width="44px"
+                      height="44px"
+                    >
+                      <use
+                        href="./images/icons-svg/icons.svg#icon-ellipse-2"
+                      ></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><svg
+                      class="linkedin-icon social-icon"
+                      width="44px"
+                      height="44px"
+                    >
+                      <use
+                        href="./images/icons-svg/icons.svg#icon-ellipse-3"
+                      ></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
             </li>
             <li class="team-member">
               <img
@@ -161,6 +244,60 @@
               />
               <h3 class="member-name">John Doe</h3>
               <p class="member-job">Frontend Developer</p>
+              <ul class="social-links">
+                <li>
+                  <a href="#"
+                    ><svg
+                      class="instagram-icon social-icon"
+                      width="44px"
+                      height="44px"
+                    >
+                      <use
+                        href="./images/icons-svg/icons.svg#icon-ellipse"
+                      ></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><svg
+                      class="tweeter-icon social-icon"
+                      width="44px"
+                      height="44px"
+                    >
+                      <use
+                        href="./images/icons-svg/icons.svg#icon-ellipse-1"
+                      ></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><svg
+                      class="facebook-icon social-icon"
+                      width="44px"
+                      height="44px"
+                    >
+                      <use
+                        href="./images/icons-svg/icons.svg#icon-ellipse-2"
+                      ></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><svg
+                      class="linkedin-icon social-icon"
+                      width="44px"
+                      height="44px"
+                    >
+                      <use
+                        href="./images/icons-svg/icons.svg#icon-ellipse-3"
+                      ></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
             </li>
             <li class="team-member">
               <img
@@ -171,6 +308,60 @@
               />
               <h3 class="member-name">John Doe</h3>
               <p class="member-job">Marketing</p>
+              <ul class="social-links">
+                <li>
+                  <a href="#"
+                    ><svg
+                      class="instagram-icon social-icon"
+                      width="44px"
+                      height="44px"
+                    >
+                      <use
+                        href="./images/icons-svg/icons.svg#icon-ellipse"
+                      ></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><svg
+                      class="tweeter-icon social-icon"
+                      width="44px"
+                      height="44px"
+                    >
+                      <use
+                        href="./images/icons-svg/icons.svg#icon-ellipse-1"
+                      ></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><svg
+                      class="facebook-icon social-icon"
+                      width="44px"
+                      height="44px"
+                    >
+                      <use
+                        href="./images/icons-svg/icons.svg#icon-ellipse-2"
+                      ></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><svg
+                      class="linkedin-icon social-icon"
+                      width="44px"
+                      height="44px"
+                    >
+                      <use
+                        href="./images/icons-svg/icons.svg#icon-ellipse-3"
+                      ></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
             </li>
             <li class="team-member">
               <img
@@ -181,6 +372,146 @@
               />
               <h3 class="member-name">John Doe</h3>
               <p class="member-job">UI Designer</p>
+              <ul class="social-links">
+                <li>
+                  <a href="#"
+                    ><svg
+                      class="instagram-icon social-icon"
+                      width="44px"
+                      height="44px"
+                    >
+                      <use
+                        href="./images/icons-svg/icons.svg#icon-ellipse"
+                      ></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><svg
+                      class="tweeter-icon social-icon"
+                      width="44px"
+                      height="44px"
+                    >
+                      <use
+                        href="./images/icons-svg/icons.svg#icon-ellipse-1"
+                      ></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><svg
+                      class="facebook-icon social-icon"
+                      width="44px"
+                      height="44px"
+                    >
+                      <use
+                        href="./images/icons-svg/icons.svg#icon-ellipse-2"
+                      ></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><svg
+                      class="linkedin-icon social-icon"
+                      width="44px"
+                      height="44px"
+                    >
+                      <use
+                        href="./images/icons-svg/icons.svg#icon-ellipse-3"
+                      ></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!--nasi klienci-->
+      <section class="clients">
+        <div class="container">
+          <h2 class="our-clients">Nasi klienci</h2>
+          <ul class="client-icons">
+            <li>
+              <div class="client-icon-background">
+                <a class="client-icon-links" href="#"
+                  ><svg
+                    class="linkedin-icon client-icon"
+                    width="106px"
+                    height="60.04px"
+                  >
+                    <use href="./images/icons-svg/icons.svg#icon-logo"></use>
+                  </svg>
+                </a>
+              </div>
+            </li>
+            <li>
+              <div class="client-icon-background">
+                <a class="client-icon-links" href="#"
+                  ><svg
+                    class="linkedin-icon client-icon"
+                    width="106px"
+                    height="60.04px"
+                  >
+                    <use href="./images/icons-svg/icons.svg#icon-logo-1"></use>
+                  </svg>
+                </a>
+              </div>
+            </li>
+            <li>
+              <div class="client-icon-background">
+                <a class="client-icon-links" href="#"
+                  ><svg
+                    class="linkedin-icon client-icon"
+                    width="106px"
+                    height="60.04px"
+                  >
+                    <use href="./images/icons-svg/icons.svg#icon-logo-2"></use>
+                  </svg>
+                </a>
+              </div>
+            </li>
+            <li>
+              <div class="client-icon-background">
+                <a class="client-icon-links" href="#"
+                  ><svg
+                    class="linkedin-icon client-icon"
+                    width="106px"
+                    height="60.04px"
+                  >
+                    <use href="./images/icons-svg/icons.svg#icon-logo-3"></use>
+                  </svg>
+                </a>
+              </div>
+            </li>
+            <li>
+              <div class="client-icon-background">
+                <a class="client-icon-links" href="#"
+                  ><svg
+                    class="linkedin-icon client-icon"
+                    width="106px"
+                    height="60.04px"
+                  >
+                    <use href="./images/icons-svg/icons.svg#icon-logo-4"></use>
+                  </svg>
+                </a>
+              </div>
+            </li>
+            <li>
+              <div class="client-icon-background">
+                <a class="client-icon-links" href="#"
+                  ><svg
+                    class="linkedin-icon client-icon"
+                    width="106px"
+                    height="60.04px"
+                  >
+                    <use href="./images/icons-svg/icons.svg#icon-logo-5"></use>
+                  </svg>
+                </a>
+              </div>
             </li>
           </ul>
         </div>
@@ -189,31 +520,88 @@
     <footer class="footer">
       <div class="container">
         <div class="footer-block">
-          <a class="webstudio-link-footer link" href="#"
-            ><span class="blue-web">Web</span>Studio</a
-          >
-          <address class="address-links" id="contact">
-            <ul class="address-list">
-              <li class="address-list-item">
-                <a
-                  class="address-map-link link"
-                  href="https://goo.gl/maps/aFRLkCgBxppGDL6R9"
-                  target="_blank"
-                  >m. Warszawa, Aleje Jerozolimskie 21</a
-                >
+          <div class="footer-first-block">
+            <a class="webstudio-link-footer link" href="#"
+              ><span class="blue-web">Web</span>Studio</a
+            >
+            <address class="address-links" id="contact">
+              <ul class="address-list">
+                <li class="address-list-item">
+                  <a
+                    class="address-map-link link"
+                    href="https://goo.gl/maps/aFRLkCgBxppGDL6R9"
+                    target="_blank"
+                    >m. Warszawa, Aleje Jerozolimskie 21</a
+                  >
+                </li>
+                <li class="address-list-item">
+                  <a class="address-mail link" href="mailto:info@example.com"
+                    >info@example.com</a
+                  >
+                </li>
+                <li class="address-list-item">
+                  <a class="address-tel link" href="tel:+48111111111"
+                    >+48 111 111 111</a
+                  >
+                </li>
+              </ul>
+            </address>
+          </div>
+          <div class="footer-second-block">
+            <h3 class="join-us-text">DOŁĄCZ DO NAS</h3>
+            <ul class="footer-social-links">
+              <li>
+                <a href="#"
+                  ><svg
+                    class="instagram-icon social-icon"
+                    width="44px"
+                    height="44px"
+                  >
+                    <use href="./images/icons-svg/icons.svg#icon-ellipse"></use>
+                  </svg>
+                </a>
               </li>
-              <li class="address-list-item">
-                <a class="address-mail link" href="mailto:info@example.com"
-                  >info@example.com</a
-                >
+              <li>
+                <a href="#"
+                  ><svg
+                    class="tweeter-icon social-icon"
+                    width="44px"
+                    height="44px"
+                  >
+                    <use
+                      href="./images/icons-svg/icons.svg#icon-ellipse-1"
+                    ></use>
+                  </svg>
+                </a>
               </li>
-              <li class="address-list-item">
-                <a class="address-tel link" href="tel:+48111111111"
-                  >+48 111 111 111</a
-                >
+              <li>
+                <a href="#"
+                  ><svg
+                    class="facebook-icon social-icon"
+                    width="44px"
+                    height="44px"
+                  >
+                    <use
+                      href="./images/icons-svg/icons.svg#icon-ellipse-2"
+                    ></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="#"
+                  ><svg
+                    class="linkedin-icon social-icon"
+                    width="44px"
+                    height="44px"
+                  >
+                    <use
+                      href="./images/icons-svg/icons.svg#icon-ellipse-3"
+                    ></use>
+                  </svg>
+                </a>
               </li>
             </ul>
-          </address>
+          </div>
         </div>
       </div>
     </footer>
