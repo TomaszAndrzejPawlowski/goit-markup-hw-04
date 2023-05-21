@@ -58,11 +58,9 @@ ul {
   margin-right: 50px;
 }
 .envelope-icon {
-  fill: currentColor;
   margin-right: 10px;
 }
 .smartphone-icon {
-  fill: currentColor;
   margin-right: 10px;
 }
 .link {
@@ -233,10 +231,11 @@ ul {
   margin: auto;
   margin-bottom: 18px;
 }
-/*Nie wiem jak sprawić aby
+/*Nie wiem  jak sprawić aby
 kółka wokół icon
 zmieniała kolor po najechaniu kursorem.
 komentarz do skasowania później*/
+
 .social-icon:hover,
 .social-icon:focus {
   fill: #2196f3;
@@ -267,17 +266,31 @@ komentarz do skasowania później
   border: 1px rgba(175, 177, 184, 1) solid;
   border-radius: 4px;
 }
+.client-icon-links {
+  width: inherit;
+  height: inherit;
+}
 .client-icon {
   margin: 16px 32px;
+  fill: #afb1b8;
 }
 /*Nie wiem jak sprawić aby
 icony i ramka
-zmieniała kolor po najechaniu kursorem.
+zmieniały kolor razem po najechaniu kursorem
+w obręb ramki, a nie jak jest teraz,
+czyli zmieniają się oddzielnie.
+Po najechaniu na oszar ramki
+zmienia się kolor ramki,
+dopiero jak myszką najadę na samo logo svg
+to zmienia się też logo.
 komentarz do skasowania później*/
-.client-icon-links:hover,
-.client-icon-links:focus {
+.client-icon:hover,
+.client-icon:focus {
   fill: #2196f3;
-  color: #2196f3;
+}
+.client-icon-background:focus,
+.client-icon-background:hover {
+  border: 1px #2196f3 solid;
 }
 /*
 
