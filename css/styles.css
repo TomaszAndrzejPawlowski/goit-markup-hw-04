@@ -59,9 +59,11 @@ ul {
 }
 .envelope-icon {
   margin-right: 10px;
+  fill: currentColor;
 }
 .smartphone-icon {
   margin-right: 10px;
+  fill: currentColor;
 }
 .link {
   text-decoration: none;
@@ -235,10 +237,23 @@ ul {
 kółka wokół icon
 zmieniała kolor po najechaniu kursorem.
 komentarz do skasowania później*/
-
+.social-icons-likns {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-position: 50% 50%;
+}
+.social-icon {
+  fill: #afb1b8;
+  background-size: 44px 44px;
+  border-radius: 50%;
+  background-position: 50% 50%;
+  background-color: #fff;
+}
 .social-icon:hover,
 .social-icon:focus {
-  fill: #2196f3;
+  fill: #fff;
+  background-color: #2196f3;
 }
 /*
 
@@ -260,15 +275,17 @@ komentarz do skasowania później
   display: flex;
   justify-content: space-around;
 }
+/* Nie działa ??? */
+.client-icon-links {
+  min-width: 100%;
+  min-height: 100%;
+}
+/*    ^^^^^^     */
 .client-icon-background {
   width: 170px;
   height: 92px;
   border: 1px rgba(175, 177, 184, 1) solid;
   border-radius: 4px;
-}
-.client-icon-links {
-  width: inherit;
-  height: inherit;
 }
 .client-icon {
   margin: 16px 32px;
@@ -284,6 +301,7 @@ zmienia się kolor ramki,
 dopiero jak myszką najadę na samo logo svg
 to zmienia się też logo.
 komentarz do skasowania później*/
+
 .client-icon:hover,
 .client-icon:focus {
   fill: #2196f3;
@@ -292,6 +310,7 @@ komentarz do skasowania później*/
 .client-icon-background:hover {
   border: 1px #2196f3 solid;
 }
+
 /*
 
 komentarz do skasowania później
@@ -355,6 +374,18 @@ komentarz do skasowania później
 .footer-social-links {
   display: flex;
   justify-content: space-between;
+}
+.social-icon-footer {
+  fill: #fff;
+  background-color: #ffffff1a;
+  background-size: 44px 44px;
+  border-radius: 50%;
+  background-position: 50% 50%;
+}
+.social-icon-footer:hover,
+.social-icon-footer:focus {
+  background-size: 44px;
+  background-color: #2196f3;
 }
 .container {
   width: 1200px;
