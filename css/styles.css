@@ -241,18 +241,17 @@ komentarz do skasowania później*/
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  background-position: 50% 50%;
 }
 .social-icon {
+  margin: 12px;
   fill: #afb1b8;
-  background-size: 44px 44px;
-  border-radius: 50%;
-  background-position: 50% 50%;
-  background-color: #fff;
 }
 .social-icon:hover,
 .social-icon:focus {
   fill: #fff;
+}
+.social-icons-likns:hover,
+.social-icons-likns:focus {
   background-color: #2196f3;
 }
 /*
@@ -275,12 +274,6 @@ komentarz do skasowania później
   display: flex;
   justify-content: space-around;
 }
-/* Nie działa ??? */
-.client-icon-links {
-  min-width: 100%;
-  min-height: 100%;
-}
-/*    ^^^^^^     */
 .client-icon-background {
   width: 170px;
   height: 92px;
@@ -311,6 +304,24 @@ komentarz do skasowania później*/
   border: 1px #2196f3 solid;
 }
 
+.icon-logo {
+  margin: 25px 65px 20.5px 64px;
+}
+.icon-logo-1 {
+  margin: 21px 65px 20.5px 64px;
+}
+.icon-logo-2 {
+  margin: 25px 64px 25px 62px;
+}
+.icon-logo-3 {
+  margin: 25px 42px 26px 43px;
+}
+.icon-logo-4 {
+  margin: 16px 53px 28px 54px;
+}
+.icon-logo-5 {
+  margin: 22px 38px 25px 38px;
+}
 /*
 
 komentarz do skasowania później
@@ -375,16 +386,18 @@ komentarz do skasowania później
   display: flex;
   justify-content: space-between;
 }
+.social-icons-footer {
+  background-color: #ffffff1a;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
 .social-icon-footer {
   fill: #fff;
-  background-color: #ffffff1a;
-  background-size: 44px 44px;
-  border-radius: 50%;
-  background-position: 50% 50%;
+  margin: 12px;
 }
-.social-icon-footer:hover,
-.social-icon-footer:focus {
-  background-size: 44px;
+.social-icons-footer:hover,
+.social-icons-footer:focus {
   background-color: #2196f3;
 }
 .container {
